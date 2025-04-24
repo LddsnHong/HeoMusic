@@ -23,7 +23,7 @@
 ## 3.4
 新增setupMediaSessionHandlers方法，响应 MediaSession 标准媒体交互 #23
 MediaSession移除快进10秒和快退10秒
-现在iOS锁屏或控制中心可以动态显示HeoMusic歌词了 #24
+现在iOS锁屏或控制中心可以动态显示hongMusic歌词了 #24
 大幅度改进背景响应速度
 本地音乐支持获取主题色
 

@@ -1,4 +1,4 @@
-console.log("\n %c HeoMusic 开源静态音乐播放器 %c https://github.com/zhheo/HeoMusic \n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;")
+console.log("\n %c hongMusic 开源静态音乐播放器 %c https://github.com/zhheo/hongMusic \n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;")
 var local = false;
 var isScrolling = false; // 添加全局变量 isScrolling，默认为 false
 var scrollTimer = null; // 添加定时器变量
@@ -169,17 +169,17 @@ var heo = {
   },
 
   getCustomPlayList: function () {
-    const heoMusicPage = document.getElementById("heoMusic-page");
+    const hongMusicPage = document.getElementById("hongMusic-page");
     const playlistType = params.get("type") || "playlist";
 
     if (params.get("id") && params.get("server")) {
       console.log("获取到自定义内容")
       var id = params.get("id")
       var server = params.get("server")
-      heoMusicPage.innerHTML = `<meting-js id="${id}" server="${server}" type="${playlistType}" mutex="true" preload="auto" order="random"></meting-js>`;
+      hongMusicPage.innerHTML = `<meting-js id="${id}" server="${server}" type="${playlistType}" mutex="true" preload="auto" order="random"></meting-js>`;
     } else {
       console.log("无自定义内容")
-      heoMusicPage.innerHTML = `<meting-js id="${userId}" server="${userServer}" type="${userType}" mutex="true" preload="auto" order="random"></meting-js>`;
+      hongMusicPage.innerHTML = `<meting-js id="${userId}" server="${userServer}" type="${userType}" mutex="true" preload="auto" order="random"></meting-js>`;
     }
   },
 
@@ -246,7 +246,7 @@ var heo = {
   setMediaMetadata: function (aplayerObj, isSongPlaying) {
     const audio = aplayerObj.list.audios[aplayerObj.list.index]
     const coverUrl = audio.cover || './img/icon.webp';
-    const currentLrcContent = document.getElementById("heoMusic-page").querySelector(".aplayer-lrc-current").textContent;
+    const currentLrcContent = document.getElementById("hongMusic-page").querySelector(".aplayer-lrc-current").textContent;
     let songName, songArtist;
 
     if ('mediaSession' in navigator) {

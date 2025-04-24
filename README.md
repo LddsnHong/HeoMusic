@@ -1,12 +1,12 @@
-# HeoMusic
+# hongMusic
 
-![](/img/HeoMusic3.webp)
+![](/img/hongMusic3.webp)
 
 一个基于[Aplayer](https://github.com/DIYgod/APlayer)和[MetingJS](https://github.com/metowolf/MetingJS)的静态音乐播放器
 
 ## 预览
 
-[HeoMusic - 用音乐感染人心](https://music.zhheo.com/)
+[hongMusic - 用音乐感染人心](https://music.zhheo.com/)
 
 ## 基本操作
 
@@ -20,11 +20,11 @@
 
 ### 使用URL参数（推荐）（适用于在线音乐）
 
-HeoMusic支持URL参数 `https://music.zhheo.com/?id=`+ id +`&server=` + server
+hongMusic支持URL参数 `https://music.zhheo.com/?id=`+ id +`&server=` + server
 
 例如：
 
-**HeoMusicTop:** https://music.zhheo.com/?id=8668419170&server=tencent
+**hongMusicTop:** https://music.zhheo.com/?id=8668419170&server=tencent
 
 **鸡你太美:** https://music.zhheo.com/?id=2762963245&server=netease
 
@@ -107,7 +107,7 @@ musicjson内容例如：
 [@anzhiyu](https://github.com/anzhiyu-c)
 [@Glowed](https://github.com/Glowed)
 [@kuole-o](https://github.com/kuole-o)
-[查看更多](https://github.com/zhheo/HeoMusic/graphs/contributors)
+[查看更多](https://github.com/zhheo/hongMusic/graphs/contributors)
 
 ## 许可
 
